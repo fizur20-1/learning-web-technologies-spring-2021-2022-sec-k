@@ -1,0 +1,37 @@
+
+
+<info>
+		<student sl.no="23">
+
+		<name> John_Carter </name>
+		<addmission_date>
+			<day> 25 </day>
+			<month> 12 </month>
+			<year> 2015 </year>
+		</addmission_date>		
+
+		</student>
+
+	<student sl.no="29">
+
+		<name> Bob_Marshal </name>
+		<addmission_date>
+			<day> 13 </day>
+			<month> 1 </month>
+			<year> 1999 </year>
+		</addmission_date>		
+
+		</student>
+
+	<student sl.no="29">
+
+		<name> Clark_Kent </name>
+		<addmission_date>
+			<day> 17 </day>
+			<month> 6 </month>
+			<year> 2005 </year>
+		</addmission_date>		
+
+		</student>
+
+</info>
