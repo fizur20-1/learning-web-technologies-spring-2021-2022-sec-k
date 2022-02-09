@@ -1,6 +1,6 @@
 <?php
 
-echo "problem 2"."\n"; 
+echo "problem 2"."\n"."<br>"; 
 
 $amount = 500;
 $vat = 15;

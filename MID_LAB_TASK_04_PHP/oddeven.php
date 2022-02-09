@@ -1,6 +1,6 @@
 <?php
 
-echo "problem 3"."\n"; 
+echo "problem 3"."\n"."<br>"; 
 
 $num = 4;
 

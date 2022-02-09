@@ -1,28 +1,25 @@
 <?php
 
-echo "problem 6"."\n"; 
+echo "problem 6"."\n"."<br>"; 
 
 
 $element = array(1, 'shjh', 3.2, 'jsd');
 
 $num = 2;
-echo " find ". $num." element from array ";
+echo " find ". $num."no element from the array "."\n"."<br>";
+
 
 for( $i=0; $i< 4; $i++ )
 {
-	if($element[$i]==num)
+
+	if($i == $num)
 	{
 
-	echo "here we found the value from ". $num. "element". $element[$i];
+	echo $element[$i] . " is the value of ". $num. "no element";
+	
 
 	}
-	else 
-	{
-		if($i== 3)
-		{
-			echo "No element found";
-		}
-	}
+	
 }
 
 
