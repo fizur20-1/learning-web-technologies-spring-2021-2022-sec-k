@@ -7,7 +7,7 @@ $username= " ";
 			$unameError = "username is empty....";
 		}else{
 			$username = $_REQUEST['username'];
-			echo $username;
+			
 		}
 	
 ?>
@@ -24,7 +24,7 @@ $username= " ";
 		<table>
 			<tr>
 				
-				<td><input type="text" name="username" value=" "></td>
+				<td><input type="text" name="username" value="<?=$username?>" ></td>
 				<td> 
 					
 				</td>
@@ -34,7 +34,7 @@ $username= " ";
 			      <td><hr> </hr></td>
 			 </tr>
 			 <tr>  
-				<td><input type="submit" name="submit" value="Submit"></td>
+				<td><input type="submit" name="submit" value="Submit"> </td>
 			</tr>
 		</table>
 	</fieldset>

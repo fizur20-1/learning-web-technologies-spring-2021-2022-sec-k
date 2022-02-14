@@ -1,30 +1,35 @@
 <?php 
 
 	
-$username= " ";
+$useremail= " ";
 	
-		if($_REQUEST['username'] == null){
-			$unameError = "username is empty....";
+	if(isset($_REQUEST['submit'])){
+		if($_REQUEST['email'] == null){
+			$uemailError = "email is empty....";
 		}else{
-			$username = $_REQUEST['username'];
-			echo $username;
+			$useremail = $_REQUEST['email'];
+			echo $useremail;
 		}
-	
+	}
+	else echo " ";
 ?>
+
+
+
 
 
 <html>
 <head>
-	<title>name</title>
+	<title>Email</title>
 </head>
 <body>
 	<fieldset>
-		<legend>NAME</legend>
+		<legend>EMAIL</legend>
 	<form method="POST" action="">
 		<table>
 			<tr>
 				
-				<td><input type="text" name="username" value=" "></td>
+				<td><input type="EMAIL" name="email" value=" "></td>
 				<td> 
 					
 				</td>
